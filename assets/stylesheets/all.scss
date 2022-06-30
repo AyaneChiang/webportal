@@ -1,0 +1,13 @@
+// Google Font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap');
+
+// Bootstrap Required
+@import "../../node_modules/bootstrap/scss/functions"; // 必要的方法
+@import "helpers/variables"; // 自行定義的變數路徑
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/bootstrap"; // Bootstrap 完整原始碼
+
+@import "helpers/mixin";
+@import "helpers/extend";
+
+@import "index";
